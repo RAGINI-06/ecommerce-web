@@ -15,7 +15,5 @@ This is a front-end E-commerce website created using **HTML, CSS, and JavaScript
 - CSS3 (Flexbox, Grid, Media Queries)
 - JavaScript (Local Storage, DOM Manipulation)
 
-## 🚀 Live Demo
-[👉 View Live](http://127.0.0.1:5500/index.html)
 
-## 📁 Folder Structure
+
