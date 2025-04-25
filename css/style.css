@@ -1,0 +1,336 @@
+
+
+  /* ====================Part 1----------------------------------------------- */body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #333;
+  color: white;
+  padding: 1em;
+}
+nav a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+main {
+  padding: 1em;
+}
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 1em;
+}
+.product {
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 1em;
+}
+
+nav a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 1em;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Gallery Styles */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+
+nav a svg, nav a img {
+  margin-right: 8px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form textarea {
+  resize: vertical;
+  height: 150px;
+}
+h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #333;
+  background: linear-gradient(45deg, #ff6f61, #ffbc00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 20px;
+  margin-top: 40px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+h2:hover {
+  transform: scale(1.05);
+  color: #ff6f61;
+}
+
+form button {
+  background-color: #333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 10px;
+}
+header h1 {
+  font-size: 50px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+  animation: slideIn 1.5s ease-out;
+}
+
+/* Slide-in animation for h1 */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+body {
+  background-color: #eef8c5; /* Light gray background */
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  padding: 0;
+}
+
+
+.brand-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #fff5e6, #ffe6e6); /* light soft gradient */
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+  max-width: 1200px;
+}
+
+.brand-list img {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+
+.brand-list img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+h3 {
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+h3::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #ff6f61; /* Accent underline */
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+/* Fashion section container */
+section.FASHION {
+  background: linear-gradient(to right, #fff0f5, #f0f8ff); /* soft pastel gradient */
+  padding: 50px 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(92, 65, 65, 0.1);
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+/* Fashion heading style */
+section.FASHION h3 {
+  text-align: center;
+  font-size: 36px;
+  color: #cc0066;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+}
+
+section.FASHION h3::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #cc0066;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* Image grid */
+div.FASHION {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Image styling */
+div.FASHION img {
+  width: 150px;
+  height: auto;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+div.FASHION img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 10px 20px rgba(204, 0, 102, 0.3);
+}
+section.HOUSEDECOR {
+  background: linear-gradient(to right, #fff0f5, #f0f8ff); /* soft pastel gradient */
+  padding: 50px 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+/* Fashion heading style */
+section.HOUSEDECOR h3 {
+  text-align: center;
+  font-size: 36px;
+  color: #cc0066;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+}
+
+section.HOUSEDECOR h3::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #cc0066;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+/* Image grid */
+div.HOUSEDECOR{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Image styling */
+div.HOUSEDECOR img {
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+div.HOUSEDECOR img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 10px 20px rgba(204, 0, 102, 0.3);
+}
